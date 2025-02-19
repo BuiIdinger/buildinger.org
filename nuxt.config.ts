@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-  compatibilityDate: "2024-11-01",
+  compatibilityDate: "2025-02-05",
 
   /* Enable dev tools */
   devtools: { enabled: true },
@@ -7,6 +7,7 @@ export default defineNuxtConfig({
   /* Add modules */
   modules: [
     "@nuxtjs/tailwindcss",
+    "@nuxt/image"
   ],
 
   /* Disable auto imports */
